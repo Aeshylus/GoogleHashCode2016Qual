@@ -69,4 +69,9 @@ public class DroneWorld {
 
         return world;
     }
+
+    public List<DroneCommand> DeliverProduct(){
+        ArrayList<DroneCommand> commands = new ArrayList<DroneCommand>();
+        return commands;
+    }
 }
